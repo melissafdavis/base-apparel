@@ -65,10 +65,19 @@ span{
 }
 
 .email{
-  width: 60%;
-  margin: auto
-  m
+  width: 75%;
+  padding-bottom: 10vh;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+}
+
+input{
   color: pink;
+  padding: 10px;
+  border: solid 1px #dad3d3;
+  border-radius: 50px;
+  width: 100%;
+
 }
 
 .right-div{

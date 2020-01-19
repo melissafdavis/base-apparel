@@ -9,7 +9,6 @@ html, body{
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
   overflow-x:hidden;
-
 }
 
 .main-container{
@@ -18,7 +17,6 @@ html, body{
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  
 }
 
 .left-div{
@@ -30,7 +28,6 @@ html, body{
   background-image: url('./images/bg-pattern-desktop.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
 
 .logo{
@@ -97,7 +94,6 @@ input::placeholder{
 input.submit_btn {
   width: 15%;
   margin-left: -45px;
-  
   background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   color: #fff;
   font-size: 2em;
@@ -113,7 +109,6 @@ input.submit_btn {
   width: 40%;
   background: url('./images/hero-desktop.jpg') no-repeat;
   background-size: cover;
-
 }
 
 .right-div img{

@@ -25,7 +25,7 @@ button.addEventListener('click', validateEntry);
       node.appendChild(errorMessage);
       var parent = emailDiv;
       parent.appendChild(node);
-      //setTimeout(removeMessage, 1000)
+  
     }
 
     

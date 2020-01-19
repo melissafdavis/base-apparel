@@ -1,4 +1,5 @@
 const button = document.querySelector('.submit_btn');
+const emailDiv = document.querySelector('.email');
 
 
 button.addEventListener('click', validateEntry);
@@ -10,7 +11,15 @@ function validateEntry(){
     if (email.value){
       return true;
     }else{
-      alert('alert'); //create an element instead of doing an alert
+      //alert('alert'); //create an element instead of doing an alert
+      var node= document.createElement('div');
+      node.className = "noEntryMessage"
+      var noEntryMessage = document.createTextNode("Please enter a valid email address")
+      node.appendChild(noEntryMessage);
+      //entryMessage.innerHTML = "Please enter a valid email"
+      var parent = emailDiv;
+      parent.appendChild(node);
+      
     }
     }
 

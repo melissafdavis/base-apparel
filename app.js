@@ -13,7 +13,7 @@ button.addEventListener('click', validateEntry);
       if(!email.value || !re.test(email.value)){
         errorMessage();
       } else {
-        console.log("valid email");
+        alert("valid email");
         //send to php?
       }
     }

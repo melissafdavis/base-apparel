@@ -8,7 +8,6 @@ html, body{
   height: 100%;
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
-  
 }
 
 .main-container{
@@ -36,8 +35,7 @@ html, body{
 .logo{
   display: flex;
   width: 100%;
-  margin-bottom: 8vh;
-
+  margin-bottom: 15vh;
 }
 
 .we{
@@ -110,7 +108,13 @@ input.submit_btn {
 .right-div{
   display: flex;
   width: 40%;
-  
+  background: url('./images/hero-desktop.jpg') no-repeat;
+  background-size: cover;
+
+}
+
+.right-div img{
+  object-fit: cover;
 }
 
 footer{

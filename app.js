@@ -17,6 +17,8 @@ button.addEventListener('click', validateEntry);
       }
       
       e.preventDefault();
+
+    
     }
 
     function errorMessage(){

@@ -115,7 +115,8 @@ input.submit_btn {
 footer{
   margin-top: 5vh;
   width: 100%;
-  display: block;
+  display: flex;
+  margin-left: 1.5em;
 }
 footer a{
   text-decoration: none;
@@ -123,7 +124,7 @@ footer a{
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 6000px) {
   /* For tablets: */
 
   .logo{
@@ -189,11 +190,11 @@ footer a{
     font-size: 20px;
   }
   footer{
-    margin-top: 20vh;
+    margin-top: 2vh;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   /* For desktop: */
 
   .main-container{

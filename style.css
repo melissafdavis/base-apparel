@@ -138,7 +138,7 @@ footer a{
 
 /* Mobile phone styling  */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1px){
 
   .main-container{
     max-width: 100%;
@@ -148,7 +148,8 @@ footer a{
     text-align: center;
   }
   .left-div{
-    padding:0;
+    width: 100%;
+    padding: 1rem;
   }
   .logo{
     /* margin-top: 2vh; */
@@ -164,10 +165,7 @@ footer a{
     padding: 0;
   }
   
-  .left-div{
-    width: 100%;
-    padding: 1rem;
-  }
+
   .we{
     margin-top: 6vh;
     margin-bottom: 3vh;
@@ -188,18 +186,16 @@ footer a{
   .hello{
     margin-bottom: 0;
     line-height: 1.5;
-  
+    padding: 1em;
+    font-size: 14px;
+    display: flex;
   }
 
   .right-div{
    display: none;
   }
   
-.hello{
-  padding: 1em;
-  font-size: 14px;
-  display: flex;
-}
+
 
 .email{
   padding-bottom: 4vh;

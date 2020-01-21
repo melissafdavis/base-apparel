@@ -39,6 +39,8 @@ button.addEventListener('click', validateEntry);
       node.appendChild(errorMessage);
       var parent = emailDiv;
       parent.appendChild(node);
+
+      setTimeout(function(){ parent.removeChild(node) }, 5000);
       
     }
     

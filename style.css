@@ -138,7 +138,7 @@ footer a{
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 1000px){
 
   .main-container{
     max-width: 375px;
@@ -219,5 +219,11 @@ input.submit_btn {
   color: #fff;
   font-size: 2em;
 }
+
+footer{
+  margin-top: 15vh;
+
+}
+
 }
 

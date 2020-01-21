@@ -98,9 +98,17 @@ input.submit_btn {
   font-size: 2em;
 }
 
-.errorMessage, .successMessage{
+.errorMessage{
   color: hsl(0, 93%, 68%);
   margin-left: 15px;
+  margin-top: 10px;
+  
+}
+
+.successMessage{
+  color:green;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
 .right-div{

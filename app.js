@@ -18,7 +18,7 @@ button.addEventListener('click', validateEntry);
       
       e.preventDefault();
 
-    
+      
     }
 
     function errorMessage(){
@@ -28,6 +28,8 @@ button.addEventListener('click', validateEntry);
       node.appendChild(errorMessage);
       var parent = emailDiv;
       parent.appendChild(node);
+
+      setTimeout(function(){ parent.removeChild(node) }, 3000);
     }
 
     function successMessage(){
@@ -37,6 +39,7 @@ button.addEventListener('click', validateEntry);
       node.appendChild(errorMessage);
       var parent = emailDiv;
       parent.appendChild(node);
+      
     }
     
 

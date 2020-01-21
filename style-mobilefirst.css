@@ -113,13 +113,14 @@ input.submit_btn {
 }
 
 footer{
-  margin-top: 5vh;
+  /* margin-top: 5vh;
   width: 100%;
   display: flex;
-  margin-left: 1.5em;
+  margin-left: 1.5em; */
+  display: none;
 }
 footer a{
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 

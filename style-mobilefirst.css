@@ -112,9 +112,10 @@ input.submit_btn {
 }
 
 footer{
-  margin-top: 3vh;
+  /* margin-top: 3vh;
   width: 100%;
-  display: inline-block;
+  display: inline-block; */
+  display:none;
 }
 
 footer a{
@@ -227,20 +228,21 @@ footer a{
     width: 100%;
     margin-bottom: 15vh;
   }
-  
+  span{
+    font-size: 1em;
+    letter-spacing: .5em;
+  }
+
   
   h1{
     font-size: 5em;
-    letter-spacing: .2em;
+    letter-spacing: .5em;
     text-align: left;
-    margin-left: 8%;
+    margin-left: 0;
     
   }
   
-  span{
-    font-size: .8em;
-    letter-spacing: .5em;
-  }
+  
   .middle-div{
     display: none;
   }
@@ -253,11 +255,13 @@ footer a{
   }
 
   .email{
+    margin-left: -9%;
     width: 100%;
+    padding-bottom: 5vh;
     
   }
   input{
-    margin-left: 2%
+    
   }
 
   .right-div{
